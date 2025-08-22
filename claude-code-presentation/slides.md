@@ -66,6 +66,84 @@ The last comment block of each slide will be treated as slide notes. It will be 
 layout: default
 ---
 
+# Reason #10: Customize Your Environment
+
+<div class="absolute top-4 left-4">
+  <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+<div>
+
+## Global & Project-Level Configuration
+
+Claude Code provides comprehensive configuration at multiple levels:
+
+- **User settings** - Global preferences across all projects
+- **Project settings** - Team-shared configuration in source control
+- **Local overrides** - Personal project-specific customizations
+- **Enterprise policies** - Organization-wide security controls
+
+<div class="mt-4 p-3 bg-emerald-50 rounded-lg">
+<div class="text-sm font-semibold text-emerald-700 mb-1">Ultimate Flexibility:</div>
+<div class="text-sm text-emerald-600">Configure once, work everywhere with your preferred setup</div>
+</div>
+
+</div>
+
+<div class="pl-4">
+
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Configuration Hierarchy:</div>
+
+```json
+// ~/.claude/settings.json (Global)
+{
+  "model": "claude-3-5-sonnet-20241022",
+  "theme": "dark",
+  "permissions": {
+    "allow": ["Bash(npm run:*)"]
+  }
+}
+
+// .claude/settings.json (Project)
+{
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "hooks": {
+    "PostEdit": "npm run format"
+  }
+}
+```
+
+</div>
+
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Configuration Benefits:</div>
+<div class="space-y-1 text-sm">
+<div class="flex items-center"><span class="text-blue-500 mr-2">⚙️</span> Consistent workflow across projects</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">🔒</span> Security policies and permissions</div>
+<div class="flex items-center"><span class="text-purple-500 mr-2">🎨</span> Custom themes and preferences</div>
+<div class="flex items-center"><span class="text-orange-500 mr-2">🚀</span> Automated hooks and workflows</div>
+</div>
+</div>
+
+<div class="text-center">
+<div class="inline-block px-3 py-2 bg-emerald-100 text-emerald-800 rounded-lg text-sm font-medium">
+🎛️ Your Claude, your way
+</div>
+</div>
+
+</div>
+
+</div>
+
+---
+layout: default
+---
+
 # Reason #9: CLI Command Mastery
 
 <div class="absolute top-4 left-4">
