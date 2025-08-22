@@ -748,57 +748,59 @@ layout: default
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="grid grid-cols-2 gap-3 mt-1">
 
 <div>
 
 ## Maximize Your Productivity
 
-Follow these best practices to get the most out of Claude Code:
+<div class="text-sm">Follow these best practices to get the most out of Claude Code:</div>
 
-- **Always run `/init`** - Populate your context before working on a project
-- **Use planning mode and iterate** - Refine until satisfied, then write to the project
-- **Don't ask Claude to do too much at once** - Break large tasks into smaller steps
-- **Manage your context** - If context is too large, important details are sometimes lost
+<div class="text-sm space-y-0.5 mt-1">
+<div>• <strong>Always run `/init`</strong> - Populate your context before working</div>
+<div>• <strong>Use planning mode and iterate</strong> - Refine until satisfied</div>
+<div>• <strong>Don't ask Claude to do too much at once</strong> - Break tasks down</div>
+<div>• <strong>Manage your context</strong> - If too large, details are lost</div>
+<div>• <strong>Hit escape if Claude goes wrong</strong> - Stop unwanted actions</div>
+<div>• <strong>Commit code often</strong> - Save progress regularly</div>
+<div>• <strong>Claude remove unused files</strong> - Keep workspace clean</div>
+</div>
 
-<div class="mt-3 p-2 bg-yellow-50 rounded-lg">
-<div class="text-sm font-semibold text-yellow-700">Pro Success Factor:</div>
-<div class="text-sm text-yellow-600">Clear communication = better results</div>
+<div class="mt-1 p-1.5 bg-yellow-50 rounded text-xs">
+<div class="font-semibold text-yellow-700">Pro Success Factor:</div>
+<div class="text-yellow-600">Clear communication = better results</div>
 </div>
 
 </div>
 
-<div class="pl-4">
+<div class="pl-2">
 
-<div class="mb-3">
-<div class="text-base font-semibold text-gray-800 mb-2">Essential Setup Commands:</div>
+<div class="mb-1">
+<div class="text-sm font-semibold text-gray-800 mb-0.5">Essential Setup:</div>
 
 ```bash
 # Initialize project context
 /init
 
-# Configure permissions
+# Configure permissions  
 claude config set permissions.allow "Bash(npm run:*)"
 claude config set permissions.deny "Read(.env)"
-
-# Set up environment
-claude config set env.NODE_ENV "development"
 ```
 
 </div>
 
-<div class="mb-3">
-<div class="text-base font-semibold text-gray-800 mb-2">Communication Tips:</div>
-<div class="space-y-1 text-sm">
-<div class="flex items-center"><span class="text-blue-500 mr-2">💬</span> Be specific about requirements</div>
-<div class="flex items-center"><span class="text-green-500 mr-2">🎯</span> Provide context and constraints</div>
-<div class="flex items-center"><span class="text-purple-500 mr-2">🔍</span> Ask for explanations when needed</div>
-<div class="flex items-center"><span class="text-orange-500 mr-2">🔄</span> Iterate and refine solutions</div>
+<div class="mb-1">
+<div class="text-sm font-semibold text-gray-800 mb-0.5">Communication Tips:</div>
+<div class="space-y-0 text-xs">
+<div class="flex items-center"><span class="text-blue-500 mr-1">💬</span> Be specific about requirements</div>
+<div class="flex items-center"><span class="text-green-500 mr-1">🎯</span> Provide context and constraints</div>
+<div class="flex items-center"><span class="text-purple-500 mr-1">🔍</span> Ask for explanations when needed</div>
+<div class="flex items-center"><span class="text-orange-500 mr-1">🔄</span> Iterate and refine solutions</div>
 </div>
 </div>
 
-<div class="text-center">
-<div class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 rounded-lg text-sm font-medium">
+<div class="text-center mt-1">
+<div class="inline-block px-2 py-0.5 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">
 🎯 Success through smart setup
 </div>
 </div>
