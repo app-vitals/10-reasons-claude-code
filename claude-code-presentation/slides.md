@@ -87,7 +87,7 @@ Claude Code executes CLI commands to help you understand and manage your environ
 
 <div class="mt-4 p-3 bg-amber-50 rounded-lg">
 <div class="text-sm font-semibold text-amber-700 mb-1">System Intelligence:</div>
-<div class="text-sm text-amber-600">Claude becomes your DevOps co-pilot</div>
+<div class="text-sm text-amber-600">Claude becomes your pair programmer</div>
 </div>
 
 </div>
@@ -359,7 +359,7 @@ npm run dev
 layout: default
 ---
 
-# Reason #5: Professional Git Commit Messages
+# Reason #5: Slash Commands
 
 <div class="absolute top-4 left-4">
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
@@ -369,54 +369,44 @@ layout: default
 
 <div>
 
-## Never Write Bad Commits Again
+## Instant Access to Powerful Features
 
-Claude Code automatically generates meaningful, conventional commit messages:
+Claude Code's slash commands provide immediate access to sophisticated development tools:
 
-- **Conventional format** - Follows industry standards
-- **Descriptive summaries** - Clear, actionable descriptions
-- **Proper categorization** - feat, fix, refactor, docs, etc.
-- **Context awareness** - Understands what changed and why
+- **`/help`** - Get contextual assistance
+- **`/memory`** - Manage project context 
+- **`/resume`** - Continue previous sessions
+- **`/commit`** - Smart git operations
+- **`/web`** - Search and fetch web content
 
-<div class="mt-4 p-3 bg-indigo-50 rounded-lg">
-<div class="text-sm font-semibold text-indigo-700 mb-1">Code Quality:</div>
-<div class="text-sm text-indigo-600">Improves code archaeology and team communication</div>
+<div class="mt-4 p-3 bg-gray-50 rounded-lg">
+<div class="text-sm font-semibold text-gray-700 mb-1">Pro Tip:</div>
+<div class="text-sm text-gray-600">Type <code>/</code> to see all available commands</div>
 </div>
 
 </div>
 
 <div class="pl-4">
 
-<div class="mb-4">
-<div class="text-base font-semibold text-red-600 mb-2">❌ Before: Lazy Commits</div>
-
 ```bash
-git commit -m "fix"
-git commit -m "update stuff"
-git commit -m "changes"
-git commit -m "wip"
+# Instead of remembering complex commands
+git add .
+git commit -m "fix: resolve login issue"
+git push origin main
+
+# Just use slash commands
+/commit "fix: resolve login issue"
 ```
 
-</div>
-
-<div class="mb-4">
-<div class="text-base font-semibold text-green-600 mb-2">✅ After: Claude Code</div>
-
 ```bash
-feat: add user authentication with JWT tokens
-
-fix: resolve memory leak in image processing
-
-refactor: extract validation logic
-
-docs: update API documentation
+# Instead of manual web searches
+# Use integrated web access
+/web "latest React 18 best practices"
 ```
 
-</div>
-
-<div class="text-center">
-<div class="inline-block px-3 py-2 bg-indigo-100 text-indigo-800 rounded-lg text-sm font-medium">
-📝 Professional commits, zero effort
+<div class="mt-3 text-center">
+<div class="inline-block px-3 py-2 bg-blue-100 text-blue-800 rounded-lg text-sm font-medium">
+⚡ 10x faster workflow
 </div>
 </div>
 
@@ -495,7 +485,7 @@ The `/init` command and CLAUDE.md file create a knowledge base:
 layout: default
 ---
 
-# Reason #3: Slash Commands
+# Reason #3: Professional Git Commit Messages
 
 <div class="absolute top-4 left-4">
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
@@ -505,44 +495,54 @@ layout: default
 
 <div>
 
-## Instant Access to Powerful Features
+## Never Write Bad Commits Again
 
-Claude Code's slash commands provide immediate access to sophisticated development tools:
+Claude Code automatically generates meaningful, conventional commit messages:
 
-- **`/help`** - Get contextual assistance
-- **`/memory`** - Manage project context 
-- **`/resume`** - Continue previous sessions
-- **`/commit`** - Smart git operations
-- **`/web`** - Search and fetch web content
+- **Conventional format** - Follows industry standards
+- **Descriptive summaries** - Clear, actionable descriptions
+- **Proper categorization** - feat, fix, refactor, docs, etc.
+- **Context awareness** - Understands what changed and why
 
-<div class="mt-4 p-3 bg-gray-50 rounded-lg">
-<div class="text-sm font-semibold text-gray-700 mb-1">Pro Tip:</div>
-<div class="text-sm text-gray-600">Type <code>/</code> to see all available commands</div>
+<div class="mt-4 p-3 bg-indigo-50 rounded-lg">
+<div class="text-sm font-semibold text-indigo-700 mb-1">Code Quality:</div>
+<div class="text-sm text-indigo-600">Improves code archaeology and team communication</div>
 </div>
 
 </div>
 
 <div class="pl-4">
 
-```bash
-# Instead of remembering complex commands
-git add .
-git commit -m "fix: resolve login issue"
-git push origin main
-
-# Just use slash commands
-/commit "fix: resolve login issue"
-```
+<div class="mb-4">
+<div class="text-base font-semibold text-red-600 mb-2">❌ Before: Lazy Commits</div>
 
 ```bash
-# Instead of manual web searches
-# Use integrated web access
-/web "latest React 18 best practices"
+git commit -m "fix"
+git commit -m "update stuff"
+git commit -m "changes"
+git commit -m "wip"
 ```
 
-<div class="mt-3 text-center">
-<div class="inline-block px-3 py-2 bg-blue-100 text-blue-800 rounded-lg text-sm font-medium">
-⚡ 10x faster workflow
+</div>
+
+<div class="mb-4">
+<div class="text-base font-semibold text-green-600 mb-2">✅ After: Claude Code</div>
+
+```bash
+feat: add user authentication with JWT tokens
+
+fix: resolve memory leak in image processing
+
+refactor: extract validation logic
+
+docs: update API documentation
+```
+
+</div>
+
+<div class="text-center">
+<div class="inline-block px-3 py-2 bg-indigo-100 text-indigo-800 rounded-lg text-sm font-medium">
+📝 Professional commits, zero effort
 </div>
 </div>
 
