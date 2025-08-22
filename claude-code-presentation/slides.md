@@ -738,3 +738,72 @@ git add . && git commit -m "feat: add user profile"
 
 </div>
 
+---
+layout: default
+---
+
+# Tips for Success with Claude Code
+
+<div class="absolute top-4 left-4">
+  <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+
+<div>
+
+## Maximize Your Productivity
+
+Follow these best practices to get the most out of Claude Code:
+
+- **Always run `/init`** - Populate your context before working on a project
+- **Use planning mode and iterate** - Refine until satisfied, then write to the project
+- **Don't ask Claude to do too much at once** - Break large tasks into smaller steps
+- **Manage your context** - If context is too large, important details are sometimes lost
+
+<div class="mt-3 p-2 bg-yellow-50 rounded-lg">
+<div class="text-sm font-semibold text-yellow-700">Pro Success Factor:</div>
+<div class="text-sm text-yellow-600">Clear communication = better results</div>
+</div>
+
+</div>
+
+<div class="pl-4">
+
+<div class="mb-3">
+<div class="text-base font-semibold text-gray-800 mb-2">Essential Setup Commands:</div>
+
+```bash
+# Initialize project context
+/init
+
+# Configure permissions
+claude config set permissions.allow "Bash(npm run:*)"
+claude config set permissions.deny "Read(.env)"
+
+# Set up environment
+claude config set env.NODE_ENV "development"
+```
+
+</div>
+
+<div class="mb-3">
+<div class="text-base font-semibold text-gray-800 mb-2">Communication Tips:</div>
+<div class="space-y-1 text-sm">
+<div class="flex items-center"><span class="text-blue-500 mr-2">💬</span> Be specific about requirements</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">🎯</span> Provide context and constraints</div>
+<div class="flex items-center"><span class="text-purple-500 mr-2">🔍</span> Ask for explanations when needed</div>
+<div class="flex items-center"><span class="text-orange-500 mr-2">🔄</span> Iterate and refine solutions</div>
+</div>
+</div>
+
+<div class="text-center">
+<div class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 rounded-lg text-sm font-medium">
+🎯 Success through smart setup
+</div>
+</div>
+
+</div>
+
+</div>
+
