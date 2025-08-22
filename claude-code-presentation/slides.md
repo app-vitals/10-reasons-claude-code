@@ -536,3 +536,142 @@ Claude Code seamlessly integrates with your existing development environment:
 
 </div>
 
+---
+layout: default
+---
+
+# Reason #8: Web Search & Online Documentation
+
+<div class="absolute top-4 left-4">
+  <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+<div>
+
+## Always Current, Always Accurate
+
+Claude Code can search the web and read online documentation in real-time:
+
+- **Latest framework updates** - Get current API changes
+- **Official documentation** - Direct access to source docs
+- **GitHub issues** - Find bug reports and solutions
+- **Migration guides** - Help upgrade between versions
+
+<div class="mt-4 p-3 bg-rose-50 rounded-lg">
+<div class="text-sm font-semibold text-rose-700 mb-1">Knowledge Power:</div>
+<div class="text-sm text-rose-600">No more outdated solutions or deprecated methods</div>
+</div>
+
+</div>
+
+<div class="pl-4">
+
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Real-Time Information Access:</div>
+
+```bash
+# Simply ask for the latest information
+"What are the React 19 server components best practices?"
+
+# Get current library documentation
+"Show me the latest Tanstack Query v5 documentation"
+
+# Find migration guides and breaking changes
+"Help me migrate from Tailwind CSS v3 to v4"
+```
+
+</div>
+
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Benefits:</div>
+<div class="space-y-1 text-sm">
+<div class="flex items-center"><span class="text-green-500 mr-2">✅</span> Always uses latest APIs</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">✅</span> Avoids deprecated patterns</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">✅</span> Finds security updates</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">✅</span> Discovers new features</div>
+</div>
+</div>
+
+<div class="text-center">
+<div class="inline-block px-3 py-2 bg-rose-100 text-rose-800 rounded-lg text-sm font-medium">
+🌐 Connected to the entire web
+</div>
+</div>
+
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# Reason #9: CLI Command Mastery
+
+<div class="absolute top-4 left-4">
+  <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+<div>
+
+## Run Any Tool, Explore Any System
+
+Claude Code executes CLI commands to help you understand and manage your environment:
+
+- **Cloud services** - AWS, GCP, Azure CLI operations
+- **Infrastructure tools** - Docker, Kubernetes, Terraform
+- **Database clients** - psql, mysql, mongosh queries
+- **Dev workflows** - Test runners, linters, build tools
+
+<div class="mt-4 p-3 bg-amber-50 rounded-lg">
+<div class="text-sm font-semibold text-amber-700 mb-1">System Intelligence:</div>
+<div class="text-sm text-amber-600">Claude becomes your DevOps co-pilot</div>
+</div>
+
+</div>
+
+<div class="pl-4">
+
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Example Commands Claude Can Run:</div>
+
+```bash
+# Explore AWS infrastructure
+aws ec2 describe-instances --region us-east-1
+
+# Check LiveKit server status
+lk room list --url $LIVEKIT_URL
+
+# Query PostgreSQL databases
+psql -c "SELECT * FROM users WHERE created_at > NOW() - INTERVAL '7 days'"
+
+# Run test suites and analyze results
+npm test -- --coverage
+```
+
+</div>
+
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Workflow Benefits:</div>
+<div class="space-y-1 text-sm">
+<div class="flex items-center"><span class="text-blue-500 mr-2">🔍</span> Investigates system state</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">🛠️</span> Runs complex CLI sequences</div>
+<div class="flex items-center"><span class="text-purple-500 mr-2">📊</span> Analyzes command output</div>
+<div class="flex items-center"><span class="text-orange-500 mr-2">🔧</span> Fixes issues automatically</div>
+</div>
+</div>
+
+<div class="text-center">
+<div class="inline-block px-3 py-2 bg-amber-100 text-amber-800 rounded-lg text-sm font-medium">
+⚡ Your terminal, supercharged
+</div>
+</div>
+
+</div>
+
+</div>
+
