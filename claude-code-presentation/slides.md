@@ -72,7 +72,7 @@ layout: default
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-6">
+<div class="grid grid-cols-2 gap-6 mt-4">
 
 <div>
 
@@ -85,53 +85,48 @@ Claude Code provides comprehensive configuration at multiple levels:
 - **Local overrides** - Personal project-specific customizations
 - **Enterprise policies** - Organization-wide security controls
 
-<div class="mt-4 p-3 bg-emerald-50 rounded-lg">
+<div class="mt-3 p-2 bg-emerald-50 rounded-lg">
 <div class="text-sm font-semibold text-emerald-700 mb-1">Ultimate Flexibility:</div>
-<div class="text-sm text-emerald-600">Configure once, work everywhere with your preferred setup</div>
+<div class="text-sm text-emerald-600">Configure once, work everywhere</div>
 </div>
 
 </div>
 
 <div class="pl-4">
 
-<div class="mb-4">
-<div class="text-base font-semibold text-gray-800 mb-2">Configuration Hierarchy:</div>
+<div class="mb-3">
+<div class="text-base font-semibold text-gray-800 mb-2">Configuration Examples:</div>
 
 ```json
-// ~/.claude/settings.json (Global)
+// Global settings
 {
-  "model": "claude-3-5-sonnet-20241022",
+  "model": "claude-3-5-sonnet",
   "theme": "dark",
   "permissions": {
     "allow": ["Bash(npm run:*)"]
   }
 }
 
-// .claude/settings.json (Project)
+// Project settings
 {
-  "env": {
-    "NODE_ENV": "development"
-  },
-  "hooks": {
-    "PostEdit": "npm run format"
-  }
+  "env": {"NODE_ENV": "development"},
+  "hooks": {"PostEdit": "npm run format"}
 }
 ```
 
 </div>
 
-<div class="mb-4">
-<div class="text-base font-semibold text-gray-800 mb-2">Configuration Benefits:</div>
+<div class="mb-3">
 <div class="space-y-1 text-sm">
-<div class="flex items-center"><span class="text-blue-500 mr-2">⚙️</span> Consistent workflow across projects</div>
-<div class="flex items-center"><span class="text-green-500 mr-2">🔒</span> Security policies and permissions</div>
-<div class="flex items-center"><span class="text-purple-500 mr-2">🎨</span> Custom themes and preferences</div>
-<div class="flex items-center"><span class="text-orange-500 mr-2">🚀</span> Automated hooks and workflows</div>
+<div class="flex items-center"><span class="text-blue-500 mr-2">⚙️</span> Consistent workflows</div>
+<div class="flex items-center"><span class="text-green-500 mr-2">🔒</span> Security policies</div>
+<div class="flex items-center"><span class="text-purple-500 mr-2">🎨</span> Custom themes</div>
+<div class="flex items-center"><span class="text-orange-500 mr-2">🚀</span> Automated hooks</div>
 </div>
 </div>
 
 <div class="text-center">
-<div class="inline-block px-3 py-2 bg-emerald-100 text-emerald-800 rounded-lg text-sm font-medium">
+<div class="inline-block px-3 py-1 bg-emerald-100 text-emerald-800 rounded-lg text-sm font-medium">
 🎛️ Your Claude, your way
 </div>
 </div>
@@ -361,7 +356,7 @@ layout: default
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-6">
+<div class="grid grid-cols-2 gap-6 mt-4">
 
 <div>
 
@@ -374,38 +369,34 @@ Claude Code generates comprehensive README files that stay current:
 - **Current tech stack** - Up-to-date framework versions
 - **Practical examples** - Real code snippets that work
 
-<div class="mt-4 p-3 bg-teal-50 rounded-lg">
+<div class="mt-3 p-2 bg-teal-50 rounded-lg">
 <div class="text-sm font-semibold text-teal-700 mb-1">Developer Experience:</div>
-<div class="text-sm text-teal-600">New team members productive in minutes, not hours</div>
+<div class="text-sm text-teal-600">New team members productive in minutes</div>
 </div>
 
 </div>
 
 <div class="pl-4">
 
-<div class="mb-4">
-<div class="text-base font-semibold text-red-600 mb-2">❌ Typical README Problems</div>
+<div class="mb-3">
+<div class="text-base font-semibold text-red-600 mb-1">❌ Typical Problems</div>
 
 ```markdown
 # My Project
-
 This is a cool project.
 
 ## Installation
 npm install (maybe?)
-
-## Usage
-Run it and see what happens.
 ```
 
-<div class="text-xs text-gray-600 mt-1">
-• Outdated steps • Missing prerequisites • Vague descriptions
+<div class="text-xs text-gray-600">
+Outdated • Missing prerequisites • Vague
 </div>
 
 </div>
 
 <div class="mb-3">
-<div class="text-base font-semibold text-green-600 mb-2">✅ Claude Code Generated</div>
+<div class="text-base font-semibold text-green-600 mb-1">✅ Claude Generated</div>
 
 ```markdown
 # E-Commerce Platform
@@ -415,16 +406,13 @@ Run it and see what happens.
 - PostgreSQL 14+
 
 ## Quick Start
-\`\`\`bash
-npm install
-npm run dev
-\`\`\`
+npm install && npm run dev
 ```
 
 </div>
 
 <div class="text-center">
-<div class="inline-block px-3 py-2 bg-teal-100 text-teal-800 rounded-lg text-sm font-medium">
+<div class="inline-block px-3 py-1 bg-teal-100 text-teal-800 rounded-lg text-sm font-medium">
 📚 Documentation developers love
 </div>
 </div>
