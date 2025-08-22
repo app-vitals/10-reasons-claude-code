@@ -72,21 +72,21 @@ layout: default
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="grid grid-cols-2 gap-6 mt-2">
 
 <div>
 
 ## Global & Project-Level Configuration
 
-Claude Code provides comprehensive configuration at multiple levels:
+Claude Code provides comprehensive configuration:
 
-- **User settings** - Global preferences across all projects
-- **Project settings** - Team-shared configuration in source control
-- **Local overrides** - Personal project-specific customizations
-- **Enterprise policies** - Organization-wide security controls
+- **User settings** - Global preferences
+- **Project settings** - Team-shared config  
+- **Local overrides** - Personal customizations
+- **Enterprise policies** - Security controls
 
-<div class="mt-3 p-2 bg-emerald-50 rounded-lg">
-<div class="text-sm font-semibold text-emerald-700 mb-1">Ultimate Flexibility:</div>
+<div class="mt-2 p-2 bg-emerald-50 rounded-lg">
+<div class="text-sm font-semibold text-emerald-700">Ultimate Flexibility:</div>
 <div class="text-sm text-emerald-600">Configure once, work everywhere</div>
 </div>
 
@@ -94,39 +94,36 @@ Claude Code provides comprehensive configuration at multiple levels:
 
 <div class="pl-4">
 
-<div class="mb-3">
-<div class="text-base font-semibold text-gray-800 mb-2">Configuration Examples:</div>
+<div class="mb-2">
+<div class="text-base font-semibold text-gray-800 mb-1">Examples:</div>
 
 ```json
-// Global settings
+// ~/.claude/settings.json
 {
   "model": "claude-3-5-sonnet",
-  "theme": "dark",
-  "permissions": {
-    "allow": ["Bash(npm run:*)"]
-  }
+  "theme": "dark"
 }
 
-// Project settings
+// .claude/settings.json  
 {
-  "env": {"NODE_ENV": "development"},
-  "hooks": {"PostEdit": "npm run format"}
+  "env": {"NODE_ENV": "dev"},
+  "hooks": {"PostEdit": "format"}
 }
 ```
 
 </div>
 
-<div class="mb-3">
-<div class="space-y-1 text-sm">
-<div class="flex items-center"><span class="text-blue-500 mr-2">⚙️</span> Consistent workflows</div>
-<div class="flex items-center"><span class="text-green-500 mr-2">🔒</span> Security policies</div>
-<div class="flex items-center"><span class="text-purple-500 mr-2">🎨</span> Custom themes</div>
-<div class="flex items-center"><span class="text-orange-500 mr-2">🚀</span> Automated hooks</div>
+<div class="mb-2">
+<div class="grid grid-cols-2 gap-1 text-xs">
+<div class="flex items-center"><span class="text-blue-500 mr-1">⚙️</span> Workflows</div>
+<div class="flex items-center"><span class="text-green-500 mr-1">🔒</span> Security</div>
+<div class="flex items-center"><span class="text-purple-500 mr-1">🎨</span> Themes</div>
+<div class="flex items-center"><span class="text-orange-500 mr-1">🚀</span> Hooks</div>
 </div>
 </div>
 
 <div class="text-center">
-<div class="inline-block px-3 py-1 bg-emerald-100 text-emerald-800 rounded-lg text-sm font-medium">
+<div class="inline-block px-2 py-1 bg-emerald-100 text-emerald-800 rounded text-xs font-medium">
 🎛️ Your Claude, your way
 </div>
 </div>
