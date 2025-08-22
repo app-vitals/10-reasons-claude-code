@@ -27,11 +27,18 @@ npm run build
 npm run export
 ```
 
+### Prerequisites
+- Node.js 18+
+- npm (comes with Node.js)
+
 ### Key File Structure
-- `slides.md` - Main presentation content in Markdown with Vue components
-- `components/` - Vue.js components (uses Composition API with TypeScript)
-- `package.json` - Uses Slidev CLI and Vue 3.5.18
+- `claude-code-presentation/slides.md` - Main presentation content in Markdown with Vue components
+- `claude-code-presentation/components/` - Vue.js components (uses Composition API with TypeScript)  
+- `claude-code-presentation/package.json` - Uses Slidev CLI and Vue 3.5.18
 - Deployment configs: `netlify.toml` and `vercel.json` (both build to `dist/`)
+
+### Working Directory
+The main development work happens in the `claude-code-presentation/` subdirectory. Always navigate there first before running npm commands.
 
 ## Architecture and Conventions
 
