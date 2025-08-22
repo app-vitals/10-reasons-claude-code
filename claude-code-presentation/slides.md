@@ -495,7 +495,7 @@ The `/init` command and CLAUDE.md file create a knowledge base:
 layout: default
 ---
 
-# Reason #3: Eliminates Boring & Monotonous Tasks
+# Reason #3: Slash Commands
 
 <div class="absolute top-4 left-4">
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
@@ -505,50 +505,44 @@ layout: default
 
 <div>
 
-## Focus on What Matters
+## Instant Access to Powerful Features
 
-Claude Code automates the repetitive work that drains developer energy:
+Claude Code's slash commands provide immediate access to sophisticated development tools:
 
-- **Boilerplate generation** - Skip template code
-- **Documentation writing** - Auto-generate docs
-- **Test creation** - Comprehensive test suites
-- **Code formatting** - Consistent style enforcement
+- **`/help`** - Get contextual assistance
+- **`/memory`** - Manage project context 
+- **`/resume`** - Continue previous sessions
+- **`/commit`** - Smart git operations
+- **`/web`** - Search and fetch web content
 
-<div class="mt-4 p-3 bg-purple-50 rounded-lg">
-<div class="text-sm font-semibold text-purple-700 mb-1">Developer Happiness:</div>
-<div class="text-sm text-purple-600">80% more time on creative problem-solving</div>
+<div class="mt-4 p-3 bg-gray-50 rounded-lg">
+<div class="text-sm font-semibold text-gray-700 mb-1">Pro Tip:</div>
+<div class="text-sm text-gray-600">Type <code>/</code> to see all available commands</div>
 </div>
 
 </div>
 
 <div class="pl-4">
 
-<div class="mb-4">
-<div class="text-base font-semibold text-gray-800 mb-2">Tasks Claude Code Handles:</div>
+```bash
+# Instead of remembering complex commands
+git add .
+git commit -m "fix: resolve login issue"
+git push origin main
 
-```typescript
-// Boilerplate API endpoints
-app.get('/users/:id', async (req, res) => {
-  try {
-    const user = await User.findById(req.params.id);
-    if (!user) return res.status(404).json({...});
-    res.json(user);
-  } catch (error) {
-    res.status(500).json({...});
-  }
-});
+# Just use slash commands
+/commit "fix: resolve login issue"
 ```
 
 ```bash
-# Repetitive git workflows
-git add . && git commit -m "feat: add user profile"
+# Instead of manual web searches
+# Use integrated web access
+/web "latest React 18 best practices"
 ```
 
-</div>
-
-<div class="text-center">
-<div class="inline-block px-3 py-2 bg-purple-100 text-purple-800 rounded-lg text-sm font-medium">
-🚀 From tedious to creative
+<div class="mt-3 text-center">
+<div class="inline-block px-3 py-2 bg-blue-100 text-blue-800 rounded-lg text-sm font-medium">
+⚡ 10x faster workflow
 </div>
 </div>
 
@@ -620,7 +614,7 @@ Claude Code's planning mode helps you architect solutions before implementation:
 layout: default
 ---
 
-# Reason #1: Slash Commands
+# Reason #1: Eliminates Boring & Monotonous Tasks
 
 <div class="absolute top-4 left-4">
   <img src="https://app-vitals.com/img/app-vitals-banner.png" alt="App Vitals" class="h-6 opacity-70" />
@@ -630,44 +624,50 @@ layout: default
 
 <div>
 
-## Instant Access to Powerful Features
+## Focus on What Matters
 
-Claude Code's slash commands provide immediate access to sophisticated development tools:
+Claude Code automates the repetitive work that drains developer energy:
 
-- **`/help`** - Get contextual assistance
-- **`/memory`** - Manage project context 
-- **`/resume`** - Continue previous sessions
-- **`/commit`** - Smart git operations
-- **`/web`** - Search and fetch web content
+- **Boilerplate generation** - Skip template code
+- **Documentation writing** - Auto-generate docs
+- **Test creation** - Comprehensive test suites
+- **Code formatting** - Consistent style enforcement
 
-<div class="mt-4 p-3 bg-gray-50 rounded-lg">
-<div class="text-sm font-semibold text-gray-700 mb-1">Pro Tip:</div>
-<div class="text-sm text-gray-600">Type <code>/</code> to see all available commands</div>
+<div class="mt-4 p-3 bg-purple-50 rounded-lg">
+<div class="text-sm font-semibold text-purple-700 mb-1">Developer Happiness:</div>
+<div class="text-sm text-purple-600">80% more time on creative problem-solving</div>
 </div>
 
 </div>
 
 <div class="pl-4">
 
-```bash
-# Instead of remembering complex commands
-git add .
-git commit -m "fix: resolve login issue"
-git push origin main
+<div class="mb-4">
+<div class="text-base font-semibold text-gray-800 mb-2">Tasks Claude Code Handles:</div>
 
-# Just use slash commands
-/commit "fix: resolve login issue"
+```typescript
+// Boilerplate API endpoints
+app.get('/users/:id', async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    if (!user) return res.status(404).json({...});
+    res.json(user);
+  } catch (error) {
+    res.status(500).json({...});
+  }
+});
 ```
 
 ```bash
-# Instead of manual web searches
-# Use integrated web access
-/web "latest React 18 best practices"
+# Repetitive git workflows
+git add . && git commit -m "feat: add user profile"
 ```
 
-<div class="mt-3 text-center">
-<div class="inline-block px-3 py-2 bg-blue-100 text-blue-800 rounded-lg text-sm font-medium">
-⚡ 10x faster workflow
+</div>
+
+<div class="text-center">
+<div class="inline-block px-3 py-2 bg-purple-100 text-purple-800 rounded-lg text-sm font-medium">
+🚀 From tedious to creative
 </div>
 </div>
 
